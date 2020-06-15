@@ -1,9 +1,9 @@
 <!-- docs/_sidebar.md -->
 
-* Home :cn:
-   * [Quick Start](README.md "The greatest guide in the world")
-* Guide
-   * [PHP](/php/README.md "php")
-   * [array](/php/guide.md "php")
+* Introduce :cn:
+   * [简单介绍](README.md "A php programmer")
+* PHP
+   * [数组](/php/README.md "php")
+   * [字符串](/php/guide.md "php")
 * :us:, :uk:
 * 
