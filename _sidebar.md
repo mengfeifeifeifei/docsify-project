@@ -5,5 +5,15 @@
 * PHP
    * [数组](/php/README.md "php")
    * [字符串](/php/guide.md "php")
-* :us:, :uk:
-* 
+   * [PDO](/php/pdo.md "pdo")
+   * [获取文件位置及根目录](/php/dir.md)
+* Phpstorm
+   * [文件显示文本格式](/phpstorm/README.md "phpstorm")
+* Git
+   * [常用命令](/git/README.md "Git")
+* JavaScript
+   * [常用命令](/javascript/README.md "js")
+   * [toastr.js样式插件](/javascript/style.md "style")
+* Css
+   * [拖动选中文字改变背景颜色](/css/README.md "css")
+
