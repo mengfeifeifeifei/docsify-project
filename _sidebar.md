@@ -14,6 +14,9 @@
 * JavaScript
    * [常用命令](/javascript/README.md "js")
    * [toastr.js样式插件](/javascript/style.md "style")
+   * [搜索框提示信息](/javascript/search.md "search")
 * Css
    * [拖动选中文字改变背景颜色](/css/README.md "css")
+* Mysql
+   * [Select*和全部字段](/mysql/README.md "select")
 
