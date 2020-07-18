@@ -2,6 +2,7 @@
 
 * Introduce :cn:
    * [简单介绍](README.md "A php programmer")
+   * [学习线路](study.md "Study")
 * PHP
    * [基础](/php/README.md "php")
    * [字符串](/php/guide.md "php")
@@ -12,6 +13,8 @@
    * [文件显示文本格式](/phpstorm/README.md "phpstorm")
 * Git
    * [常用命令](/git/README.md "Git")
+   * [报错信息](/git/error.md "error")
+   
 * JavaScript
    * [常用命令](/javascript/README.md "js")
    * [toastr.js样式插件](/javascript/style.md "style")
