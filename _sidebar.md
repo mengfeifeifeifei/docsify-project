@@ -5,6 +5,7 @@
    * [学习线路](study.md "Study")
 * PHP
    * [基础](/php/README.md "php")
+   * [函数](/php/function.md "function")
    * [字符串](/php/guide.md "php")
    * [PDO](/php/pdo.md "pdo")
    * [获取用户IP地址](/php/ip.md)
@@ -19,8 +20,9 @@
    * [常用命令](/javascript/README.md "js")
    * [toastr.js样式插件](/javascript/style.md "style")
    * [搜索框提示信息](/javascript/search.md "search")
+   * [动态显示时间](/javascript/time.md "time")
 * Css
-   * [拖动选中文字改变背景颜色](/css/README.md "css")
+   * [常用](/css/README.md "css")
 * Mysql
    * [Select*和全部字段](/mysql/README.md "select")
 
