@@ -34,6 +34,13 @@ compact('a', 'b');    // 创建一个包含变量名和它们的值的数组
 $a = 'admin';     $b = '123456';   compact('a', 'b');     // array('a'=>'admin','b'=>'123456');
 ```
 
+> parse_str(string,array)
+```php
+parse_str("name=Peter&age=43"); echo $name; echo $age;  (Peter 43)
+当array传值时
+parse_str("name=Peter&age=43",$array);  (Array([name]=>peter [age]=>43));
+```
+
 > str_replace()
 ```php
 <?php
@@ -50,4 +57,32 @@ str_replace()第四个参数为可选参数, 对替换数进行计数,例如上�
 file_put_content('./text.txt', $data, FILE_APPEND);
 // 把$data数据追加写入到text文件中 并且换行
 file_put_content('./text.txt', $data.PHP_EOL, FILE_APPEND);
+```
+
+> json_decode  、json_encode
+
+`当第二个参数为true时返回array, 默认是false 返回object`
+
+```php
+json_decode()    -- json转 对象/数组
+```
+
+`成功返回json编码的string, 失败返回false`
+
+```php
+json_encode()    -- 对象/数组 转json
+```
+
+> JSON.stringify()、JSON.parse
+
+`JSON.stringify() 从一个对象中解析出字符串`
+
+```json
+JSON.stringify({"a":"1","b":"2"})   // "{"a":"1","b":"2"}"
+```
+
+`JSON.parse()从一个字符串中解析出JSON对象`
+
+```json
+JSON.parse("{"a":"1","b":"2"}");    // {"a":"1","b":"2"}
 ```
