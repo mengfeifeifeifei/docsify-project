@@ -5,6 +5,7 @@
    * [学习线路](study.md "Study")
 * PHP
    * [基础](/php/README.md "php")
+   * [数组](/php/array.md "array")
    * [函数](/php/function.md "function")
    * [框架](/php/frame.md "php")
    * [PDO](/php/pdo.md "pdo")
