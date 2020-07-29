@@ -75,7 +75,7 @@ json_encode()    -- 对象/数组 转json
 
 > JSON.stringify()、JSON.parse
 
-`JSON.stringify() 从一个对象中解析出字符串`
+`JSON.stringify() 从一个对象中解析出JSON字符串`
 
 ```json
 JSON.stringify({"a":"1","b":"2"})   // "{"a":"1","b":"2"}"

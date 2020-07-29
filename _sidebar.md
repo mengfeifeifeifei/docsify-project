@@ -9,6 +9,8 @@
    * [函数](/php/function.md "function")
    * [框架](/php/frame.md "php")
    * [PDO](/php/pdo.md "pdo")
+   * [签名](/php/encrypt.md "encrypt")
+   * [验证码图片](/php/code.md "code")
    * [数组对象转换](/php/transform.md)
    * [获取用户IP地址](/php/ip.md)
    * [其他](/php/other.md)

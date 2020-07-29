@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8eac4676-26b7-402c-9bb7-c2d1d3cde3f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_coverpage.md" beforeDir="false" afterPath="$PROJECT_DIR$/_coverpage.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_sidebar.md" beforeDir="false" afterPath="$PROJECT_DIR$/_sidebar.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/php/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/phpstudy_pro/WWW/code" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -71,7 +71,10 @@
       <workItem from="1595059521413" duration="1312000" />
       <workItem from="1595205963481" duration="2891000" />
       <workItem from="1595290023200" duration="7739000" />
-      <workItem from="1595581417756" duration="23000" />
+      <workItem from="1595581417756" duration="789000" />
+      <workItem from="1595808116217" duration="1631000" />
+      <workItem from="1595830808551" duration="74000" />
+      <workItem from="1595917282371" duration="6986000" />
     </task>
     <servers />
   </component>
