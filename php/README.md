@@ -81,7 +81,7 @@ json_encode()    -- 对象/数组 转json
 JSON.stringify({"a":"1","b":"2"})   // "{"a":"1","b":"2"}"
 ```
 
-`JSON.parse()从一个字符串中解析出JSON对象`
+`JSON.parse()从一个JSON字符串中解析出对象`
 
 ```json
 JSON.parse("{"a":"1","b":"2"}");    // {"a":"1","b":"2"}

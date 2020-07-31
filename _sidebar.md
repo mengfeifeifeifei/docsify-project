@@ -14,6 +14,8 @@
    * [数组对象转换](/php/transform.md)
    * [获取用户IP地址](/php/ip.md)
    * [其他](/php/other.md)
+* Https
+   * [原理](/https/README.md "https")
 * Linux
    * [常用命令](/linux/README.md)
 * Phpstorm
