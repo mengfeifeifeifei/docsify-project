@@ -18,6 +18,8 @@
    * [原理](/https/README.md "https")
 * Linux
    * [常用命令](/linux/README.md)
+* Python
+   * [学习总结](/python/README.md)
 * Phpstorm
    * [文件显示文本格式](/phpstorm/README.md "phpstorm")
 * Git
@@ -32,6 +34,8 @@
    * [ajax异步请求](/javascript/async.md)
 * Css
    * [常用](/css/README.md "css")
+* Html
+   * [密码显示隐藏](/html/password.md "password")
 * Mysql
    * [Select*和全部字段](/mysql/README.md "select")
    * [Having用法](/mysql/having.md "Having")

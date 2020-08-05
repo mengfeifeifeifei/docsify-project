@@ -35,3 +35,7 @@ krsort(array("Peter"=>"35","Ben"=>"37","Joe"=>"43"));
 
 Array ( [Peter] => 35 [Joe] => 43 [Ben] => 37 )
 ```
+`array_sum()  求数组中所有值得和`
+```php
+array_sum(range(1,100));   //1-100的和
+```
