@@ -42,4 +42,7 @@
    * [某一字段重复值获取(count)](/mysql/count.md)
 * Other
    * [其他](/other/README.md)
+* 练习题
+   * [php](/text/phptext.md)
+   * [python](/text/pytext.md)
 
