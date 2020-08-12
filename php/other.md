@@ -137,3 +137,82 @@ public function zhang($lat1, $lon1, $lat2, $lon2)
     return $distance;
 }
 ```
+
+## 文件上传(单文件)
+```php
+<?php
+// myfile为html中 input框中的name值  <input type="file" name="myfile" />
+$fileInfo = $_FILES['myfile'];
+
+function uploadFile($fileInfo,$flag=true,$allowExt=array('jpg','png','jpeg','gif'),$maxSize=2097152,$uploadPath='uploads') {
+    if($fileInfo['error'] > 0) {
+        switch($fileInfo['error']){
+            case 1 :
+                $msg =  '上传文件超过配置文件中upload_max_filesize';
+                break;
+            case 2 :
+                $msg =  '超过表单MAX_FILE_SIZE限制的大小';
+                break;
+            case 3 :
+                $msg =  '文件部分被上传';
+                break;
+            case 4 :
+                $msg =  '没有上传文件';
+                break;
+            case 6 :
+                $msg =  '没有找到临时目录';
+                break;
+            case 7 :
+                $msg =  'no';
+                break;
+            case 8 :
+                $msg =  '系统错误';
+                break;
+        }
+        exit($msg);
+    }
+
+    // 检测文件上传类型
+    //  $allowExt = array('jpg','png','jpeg','gif');
+    $ext = pathinfo($fileInfo['name'],PATHINFO_EXTENSION);
+    if(!in_array($ext,$allowExt)) {
+        exit('非法文件类型');
+    }
+
+    // 检测上传文件的大小
+    //$maxSize = 2097152;  //2M
+    if($fileInfo['size'] > $maxSize) {
+        exit('上传文件过大');
+    }
+
+    // 检测文件是否是通过post方式上传
+    if(!is_uploaded_file($fileInfo['tmp_name'])) {
+        exit('上传文件不是post上传');
+    }
+
+    // 检测是否为真实图片类型
+    if($flag){
+        if(!getimagesize($fileInfo['tmp_name'])) {
+            exit('文件不是真实的图片类型');
+        }
+    }
+    
+    // 判断是否有文件uploads 没有的话创建
+    //$uploadPath = "uploads";
+    if(!file_exists($uploadPath)) {
+        mkdir($uploadPath,0777,true);
+        chmod($uploadPath,0777);
+    }
+    // 生成唯一的文件名
+    $filename = $uploadPath.'/'.md5(uniqid(microtime(true),true)).'.'.$ext;
+    if(!@move_uploaded_file($fileInfo['tmp_name'],$filename)) {
+        exit('文件上传失败');
+    }
+
+    return array(
+        'newName' => $filename,
+        'size' => $fileInfo['size']
+    );
+    
+}
+```
