@@ -17,7 +17,7 @@ asort(array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43"));
 
 Array ( [Peter] => 35 [Ben] => 37 [Joe] => 43 )
 ```
-`ksort()  按数组中的键 对数组进行降序排列`
+`ksort()  按数组中的键 对数组进行升序排列`
 ```php
 ksort(array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43"));
 

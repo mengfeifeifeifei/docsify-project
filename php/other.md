@@ -216,3 +216,23 @@ function uploadFile($fileInfo,$flag=true,$allowExt=array('jpg','png','jpeg','gif
     
 }
 ```
+> 图片下载
+```php
+// 在php文件中 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<a href="./download.php?filename=https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3445812423,773927785&fm=26&gp=0.jpg">下载图片</a>
+</body>
+</html>
+// 接受的文件
+$a = $_GET['filename'];
+header("Content-Disposition:attachment;filename=\"$a\"");   //  \转义的意思是因为图片中有','所以需要转义 ，图片地址可以为本地相对路径
+header('content-length:'.filesize($a));
+readfile($a);
+```
