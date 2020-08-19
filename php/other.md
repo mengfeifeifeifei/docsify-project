@@ -236,3 +236,30 @@ header("Content-Disposition:attachment;filename=\"$a\"");   //  \转义的意思
 header('content-length:'.filesize($a));
 readfile($a);
 ```
+
+## 数据库循环插入10W条数据
+```php
+$user = 'root';
+$password = 'root';
+try{
+    $dbh = new PDO('mysql:host=localhost;dbname=test',$user,$password);
+}catch(PDOexception $e){
+    print "Error:" . $e->getMessage(). "<br/>";
+    die();
+}
+$sql = "insert into test (name,age) values";
+
+try{
+    for($i=1; $i<=10000; $i++) {
+        $name = chr(rand(97,122));   // 任一字母的意思
+        $age = mt_rand(0,10);
+        $sql .= "('$name',$age),";   // 拼接值 格式为 insert into test(name,age) values(xx,xxx),(xxx,xxxx).......
+    }
+    $sql = substr($sql,0,strlen($sql)-1);  // 把末尾的 ','去掉
+    $t1 = microtime(true);  // 为了计算运行时间差
+    $dbh->exec($sql);
+    $t2 = microtime(true)-$t1;
+}catch(PDOexception $e) {
+    die('error');
+}
+```

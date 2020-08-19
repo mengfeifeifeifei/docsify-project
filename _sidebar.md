@@ -40,6 +40,7 @@
    * [Select*和全部字段](/mysql/README.md "select")
    * [Having用法](/mysql/having.md "Having")
    * [某一字段重复值获取(count)](/mysql/count.md)
+   * [常见操作案例](/mysql/data.md)
 * Other
    * [其他](/other/README.md)
 * 练习题
