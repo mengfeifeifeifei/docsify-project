@@ -36,6 +36,7 @@
    * [常用](/css/README.md "css")
 * Html
    * [密码显示隐藏](/html/password.md "password")
+   * [简单的背单词](/html/word.md "word")
 * Mysql
    * [Select*和全部字段](/mysql/README.md "select")
    * [Having用法](/mysql/having.md "Having")

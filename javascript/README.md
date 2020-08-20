@@ -1,4 +1,4 @@
-**反转字符串 (有空格时数组中加上空格 一般用于有空格的字符串反转等)**  
+> 反转字符串 (有空格时数组中加上空格 一般用于有空格的字符串反转等) 
 ```js
 var a = '123456789'; 
 console.log(ab.split(''))  // 把字符串拆分为数组 以空间间隔拆开
@@ -11,4 +11,18 @@ console.log(ab.split('').reverse())
 顺序颠倒之后转回字符串  
 console.log(ab.split('').reverse().join('')) // 分隔符是什么 join括号中就跟什么   
 '987654321'
+```
+
+> JSON.stringify()、JSON.parse
+
+`JSON.stringify() 从一个对象中解析出JSON字符串`
+
+```json
+JSON.stringify({"a":"1","b":"2"})   // "{"a":"1","b":"2"}"
+```
+
+`JSON.parse()从一个JSON字符串中解析出对象`
+
+```json
+JSON.parse("{"a":"1","b":"2"}");    // {"a":"1","b":"2"}
 ```

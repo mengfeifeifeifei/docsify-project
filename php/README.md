@@ -73,16 +73,12 @@ json_decode()    -- json转 对象/数组
 json_encode()    -- 对象/数组 转json
 ```
 
-> JSON.stringify()、JSON.parse
+> strstr()
 
-`JSON.stringify() 从一个对象中解析出JSON字符串`
+```php
+// world!  查找"world"在"hello world!"中是否存在，如果在，返回字符串以及剩余的数据
+strstr("hello world!","world");  
 
-```json
-JSON.stringify({"a":"1","b":"2"})   // "{"a":"1","b":"2"}"
-```
-
-`JSON.parse()从一个JSON字符串中解析出对象`
-
-```json
-JSON.parse("{"a":"1","b":"2"}");    // {"a":"1","b":"2"}
+// 当第三个参数为true时 返回字符串前面的数据
+strstr("hello world!","world",true);   // hello
 ```
