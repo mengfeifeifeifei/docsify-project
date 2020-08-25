@@ -74,11 +74,29 @@ json_encode()    -- 对象/数组 转json
 ```
 
 > strstr()
-
 ```php
 // world!  查找"world"在"hello world!"中是否存在，如果在，返回字符串以及剩余的数据
 strstr("hello world!","world");  
 
 // 当第三个参数为true时 返回字符串前面的数据
 strstr("hello world!","world",true);   // hello
+```
+
+> implode()
+```php
+// 把数组元素合并为字符串  第一个参数为数组合并之后每个元素之间的连接符 默认为""(空字符串)
+$arr = array('hello','world');
+echo implode(' ', $arr);     // hello world
+```
+
+> explode()
+```php
+// 把字符串拆分为数组  第一个参数规定在字符串的哪里分隔为数组 第三个参数为可选，规定返回数组元素的个数
+$str = 'hello world';
+print_r(explode(" ",$str));   // array('hello','world');
+// 第三个参数
+$s = 'hello world BJ';
+print_r(explode(" ",$s));    // array([0]=>hello [1]=>world [2]=>BJ);
+print_r(explode(" ",$s,0));  // array([0]=>hello world BJ);
+print_r(explode(" ",$s,2));  // array([0]=>hello [1]=>world BJ);
 ```
