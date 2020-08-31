@@ -32,6 +32,7 @@
    * [动态显示时间](/javascript/time.md "time")
    * [jq点击按钮实时变化](/javascript/buttonClick.md)
    * [ajax异步请求](/javascript/async.md)
+   * [页面懒加载](/javascript/lazyload.md)
 * Css
    * [常用](/css/README.md "css")
 * Html

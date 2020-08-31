@@ -263,3 +263,44 @@ try{
     die('error');
 }
 ```
+
+## 获取用户的IP地址等信息
+```php
+// 获取当前域名
+echo $_SERVER['SERVER_NAME'];
+// 获取来源网址，即点击来到本页的上页网址
+echo $_SERVER['HTTP_REFERER'];
+// 获取当前域名后缀
+echo $_SERVER['REQUEST_URL'];
+// 获取当前域名
+echo $_SERVER['HTTP_HOST'];
+// IP
+echo $_SERVER['REMOTE_ADDR'];
+```
+
+
+ $array = 0;
+        while($x != 0) {
+            $a = $x%10;       // 3     2
+            $x = intval($x/10);  // 12    1
+            $array = $array*10+$a ; //3    
+        }
+        if($array < pow(-2,31) || $array > pow(2,31)-1) {
+            return 0;
+        }
+        return $array;
+
+
+        function removeDuplicates(&$nums) {
+        $count = count($nums);
+        if($count <= 1) {
+            return $count;
+        }
+        for($i=0; $i<$count-1; $i++) {
+            $j = $i + 1;
+            if(isset($nums[$j]) && ($nums[$i]==$nums[$j])) {
+                unset($nums[$i]);
+            }
+        }
+        return count($nums);
+    }

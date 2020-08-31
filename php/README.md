@@ -100,3 +100,13 @@ print_r(explode(" ",$s));    // array([0]=>hello [1]=>world [2]=>BJ);
 print_r(explode(" ",$s,0));  // array([0]=>hello world BJ);
 print_r(explode(" ",$s,2));  // array([0]=>hello [1]=>world BJ);
 ```
+
+> break
+`break语句可以使流程跳出switch体，只能在循环体内或switch语句、while(){if() break;}中使用break。 break跳出这个switch语句，但不是跳出循环体。break跳出当前这个{} 继续执行{}之外的程序。`
+
+> exit
+`exit直接终止程序 其之后的代码不会执行`
+
+> continue
+`跳过本次循环，执行下一个循环`
+
