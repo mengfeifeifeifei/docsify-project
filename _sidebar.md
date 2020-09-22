@@ -33,8 +33,10 @@
    * [jq点击按钮实时变化](/javascript/buttonClick.md)
    * [ajax异步请求](/javascript/async.md)
    * [页面懒加载](/javascript/lazyload.md)
+   * [轮播图](/javascript/banner.md)
 * Css
    * [常用](/css/README.md "css")
+   * [例子](/css/example.md)
 * Html
    * [密码显示隐藏](/html/password.md "password")
    * [简单的背单词](/html/word.md "word")
@@ -43,6 +45,8 @@
    * [Having用法](/mysql/having.md "Having")
    * [某一字段重复值获取(count)](/mysql/count.md)
    * [常见操作案例](/mysql/data.md)
+* Nosql
+   * [Redis](/redis/README.md "redis")
 * Other
    * [其他](/other/README.md)
 * 练习题
