@@ -34,6 +34,7 @@
    * [ajax异步请求](/javascript/async.md)
    * [页面懒加载](/javascript/lazyload.md)
    * [轮播图](/javascript/banner.md)
+   * [地图](/javascript/map.md)
 * Css
    * [常用](/css/README.md "css")
    * [例子](/css/example.md)
