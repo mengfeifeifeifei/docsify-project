@@ -35,6 +35,7 @@
    * [页面懒加载](/javascript/lazyload.md)
    * [轮播图](/javascript/banner.md)
    * [地图](/javascript/map.md)
+   * [判断上传文件类型](/javascript/allowext.md)
 * Css
    * [常用](/css/README.md "css")
    * [例子](/css/example.md)
