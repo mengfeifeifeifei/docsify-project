@@ -110,3 +110,10 @@ print_r(explode(" ",$s,2));  // array([0]=>hello [1]=>world BJ);
 > continue
 `跳过本次循环，执行下一个循环`
 
+> iconv_strlen()
+```php
+// 无论何种编码，都能计算出字符个数(中英文)。
+$str = '测试abc';
+echo iconv_strlen($str,'UTF-8');  // 5   第二个参数修改为对应的编码格式即可
+```
+

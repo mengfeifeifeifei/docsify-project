@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8eac4676-26b7-402c-9bb7-c2d1d3cde3f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sidebar.md" beforeDir="false" afterPath="$PROJECT_DIR$/_sidebar.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +29,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/phpstudy_pro/WWW/utop_source" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -80,7 +79,9 @@
       <workItem from="1600759036273" duration="6915000" />
       <workItem from="1601426308431" duration="2814000" />
       <workItem from="1603788044247" duration="1966000" />
-      <workItem from="1604995957165" duration="978000" />
+      <workItem from="1604995957165" duration="2223000" />
+      <workItem from="1605574958430" duration="57000" />
+      <workItem from="1605669078367" duration="634000" />
     </task>
     <servers />
   </component>
