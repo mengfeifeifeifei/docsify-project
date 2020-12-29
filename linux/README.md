@@ -1,3 +1,17 @@
+## Linux 查看版本信息
+
+`cat /proc/version`
+```text
+Linux version 3.10.0-957.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ) #1 SMP Thu Nov 8 23:39:32 UTC 2018
+```
+
+## 查看centos版本命令
+
+`cat /etc/redhat-release`
+```text
+CentOS Linux release 7.6.1810 (Core)
+```
+
 ## 定时任务执行shell脚本
 
 `service crond status 查看当前定时任务启动状态等信息`

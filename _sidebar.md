@@ -18,6 +18,7 @@
    * [原理](/https/README.md "https")
 * Linux
    * [常用命令](/linux/README.md)
+   * [安装遇到的问题](/linux/install.md)
 * Python
    * [学习总结](/python/README.md)
 * Phpstorm
