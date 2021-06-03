@@ -1,4 +1,4 @@
- `一个PHP萌新  Come On!`
+ ` Come On!`
 ```php
 
 
