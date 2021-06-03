@@ -24,6 +24,7 @@
 * Phpstorm
    * [文件显示文本格式](/phpstorm/README.md "phpstorm")
 * Git
+   * [连接GIT](/git/git.md "")
    * [常用命令](/git/README.md "Git")
    * [报错信息](/git/error.md "error")
 * JavaScript
